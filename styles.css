@@ -374,3 +374,200 @@ header nav ul li:hover {
         width: 90%;
     }
 }
+/* For large laptops and tablets (1024px and above) */
+@media (max-width: 1024px) {
+    /* Adjust font size and layout for tablet and smaller laptop screens */
+    header nav ul li a {
+        font-size: 3.5vh;
+    }
+
+    .content h1 {
+        font-size: 7vh;
+    }
+
+    .content p {
+        font-size: 3.5vh;
+        margin-left: 5vh;
+        padding-bottom: 5vh;
+    }
+
+    .cta-btn {
+        font-size: 4.5vh;
+    }
+
+    .destination-cards {
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .review-cards {
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .card {
+        width: 300px; /* Slightly smaller cards for tablets */
+    }
+
+    header .logo img {
+        width: 35vh; /* Adjust logo size for medium screens */
+    }
+
+    .review-card img {
+        width: 180px;
+        height: 180px;
+    }
+}
+
+/* For tablets (768px and above) */
+@media (max-width: 768px) {
+    header nav ul li a {
+        font-size: 3.5vh;
+    }
+
+    .content h1 {
+        font-size: 6vh;
+    }
+
+    .content p {
+        font-size: 3vh;
+        margin-left: 5vh;
+    }
+
+    .cta-btn {
+        font-size: 4vh;
+        margin-top: 250px;
+        margin-bottom: 20vh;
+    }
+
+    .destination-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .review-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header nav ul li {
+        margin-left: 15px;
+    }
+
+    .card {
+        width: 90%; /* Full width on smaller tablets */
+    }
+
+    .review-card img {
+        width: 160px;
+        height: 160px;
+    }
+
+    header .logo img {
+        width: 30vh;
+    }
+}
+
+/* For mobile phones (480px and above) */
+@media (max-width: 480px) {
+    .content h1 {
+        font-size: 5vh;
+    }
+
+    .content p {
+        font-size: 3vh;
+    }
+
+    .cta-btn {
+        font-size: 3.5vh;
+    }
+
+    header .logo img {
+        width: 30vh; /* Adjust logo size for mobile */
+    }
+
+    header nav ul li a {
+        font-size: 2.5vh;
+    }
+
+    .review-card img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .card {
+        width: 90%; /* Full width for mobile */
+    }
+
+    .cta-btn {
+        font-size: 3.5vh;
+    }
+
+    header nav ul li {
+        margin-left: 10px;
+    }
+
+    /* Contact Form Fields */
+    .contact form {
+        max-width: 100%;
+        margin: 0 20px;
+    }
+
+    .contact input,
+    .contact textarea {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .contact button {
+        width: 100%; /* Make button full width on small screens */
+    }
+}
+
+/* Extra Small Mobile (Portrait Phones) */
+@media (max-width: 360px) {
+    .content h1 {
+        font-size: 4vh;
+    }
+
+    .content p {
+        font-size: 2.5vh;
+    }
+
+    .cta-btn {
+        font-size: 3vh;
+        padding: 8px 16px;
+    }
+
+    header nav ul li a {
+        font-size: 2vh;
+    }
+
+    .review-card img {
+        width: 130px;
+        height: 130px;
+    }
+
+    .card {
+        width: 100%; /* Ensure cards take full width */
+    }
+
+    header .logo img {
+        width: 25vh; /* Make logo smaller for small phones */
+    }
+
+    .contact form {
+        max-width: 100%;
+    }
+
+    .contact input,
+    .contact textarea {
+        font-size: 0.9rem;
+    }
+
+    .contact button {
+        font-size: 1rem;
+    }
+}
