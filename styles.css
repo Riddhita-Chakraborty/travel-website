@@ -1,12 +1,28 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    overflow-x: hidden; /* Enable horizontal scrolling */
+    width: 100%;
+}
+
 /* Navbar Styles */
 header {
     background-color: #161616;
     color: white;
-    padding: 20px;
+    padding: 2vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
     transition: all 0.3s ease;
+    width: 100%; /* Ensure navbar is not wider than the viewport */
+    box-sizing: border-box; /* Ensure padding doesn't cause overflow */
+    overflow-x: auto; /* Allow scrolling if needed */
 }
 
 header .logo img {
@@ -19,6 +35,7 @@ header nav ul {
     list-style-type: none;
     display: flex;
     padding-left: 0;
+    white-space: nowrap;
 }
 
 header nav ul li {
@@ -483,9 +500,14 @@ header nav ul li:hover {
     .cta-btn {
         font-size: 3.5vh;
     }
+    
 
+    header nav ul {
+        flex-wrap: nowrap; /* Ensure the nav list doesn't wrap */
+        overflow-x: auto; /* Enable horizontal scrolling if needed */
+    }
     header .logo img {
-        width: 30vh; /* Adjust logo size for mobile */
+        width: 3vh; /* Adjust logo size for mobile */
     }
 
     header nav ul li a {
@@ -538,7 +560,8 @@ header nav ul li:hover {
 
     .cta-btn {
         font-size: 3vh;
-        padding: 8px 16px;
+        padding: 8px 1px;
+        margin-left: 10vh;
     }
 
     header nav ul li a {
