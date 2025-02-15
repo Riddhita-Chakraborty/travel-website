@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<header>
+<body>
+    <div class="logo">
+        <img src="logo.jpg">
+    </div>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#destinations">Destinations</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+</header>
+<section id="home" class="h">
+    <div class="content">
+        <h1>Explore the World</h1>
+        <p>Your adventure begins here.</p>
+        <a href="#destinations" class="cta-btn">Start Your Journey</a>
+    </div>
+    
+</section>
+
+<section id="destinations" class="destinations">
+    <h2>Top Destinations</h2>
+    <div class="destination-cards">
+        <!-- Card 1 -->
+        <div class="card">
+            <div class="card-images">
+                <img src="paris1.webp" alt="Paris Image 1">
+                <img src="paris2.jpg" alt="Paris Image 2">
+                
+            </div>
+            <h3>Paris</h3>
+        </div>
+        
+        <!-- Card 2 -->
+        <div class="card">
+            <div class="card-images">
+                <img src="bali1.jpg" alt="Bali Image 1">
+                <img src="bali2.jpg" alt="Bali Image 2">
+                
+            </div>
+            <h3>Bali</h3>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="card">
+            <div class="card-images">
+                <img src="newyork1.jpg" alt="New York Image 1">
+                <img src="newyork2.avif" alt="New York Image 2">
+                
+            </div>
+            <h3>New York</h3>
+        </div>
+    </div>
+</section>
+
+
+<section id="reviews" class="reviews">
+    <h2>User Reviews</h2>
+    <div class="review-cards">
+        <!-- Review 1 -->
+        <div class="review-card">
+            <img src="person1.webp" alt="User 1">
+            <div class="review-content">
+                <h3>John Doe</h3>
+                <p class="review-text">"Amazing experience! Paris was beautiful, and the Eiffel Tower is a must-see. Highly recommend visiting during the summer!"</p>
+                <p class="rating">⭐⭐⭐⭐⭐</p>
+            </div>
+        </div>
+
+        <!-- Review 2 -->
+        <div class="review-card">
+            <img src="user2.jpeg" alt="User 2">
+            <div class="review-content">
+                <h3>Jane Smith</h3>
+                <p class="review-text">"Bali was a dream come true. The beaches were pristine, and the food was absolutely delicious. I can't wait to go back!"</p>
+                <p class="rating">⭐⭐⭐⭐⭐</p>
+            </div>
+        </div>
+
+        <!-- Review 3 -->
+        <div class="review-card">
+            <img src="user3.jpg" alt="User 3">
+            <div class="review-content">
+                <h3>Michael Lee</h3>
+                <p class="review-text">"New York City is the place to be! From the iconic skyline to the vibrant culture, there's always something to do!"</p>
+                <p class="rating">⭐⭐⭐⭐⭐</p>
+            </div>
+        </div>
+    </div>
+
+</section>
+<section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+</section>
+</body>
+</html>
