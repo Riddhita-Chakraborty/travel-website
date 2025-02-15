@@ -507,7 +507,7 @@ header nav ul li:hover {
         overflow-x: auto; /* Enable horizontal scrolling if needed */
     }
     header .logo img {
-        width: 10vh; /* Adjust logo size for mobile */
+        width: 14vh; /* Adjust logo size for mobile */
     }
 
     header nav ul li a {
